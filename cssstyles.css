@@ -1,0 +1,96 @@
+/***************
+ media queries
+ **************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x:hidden;    
+        justify-content: center;
+        align-items: center;
+        text-align: center;   
+    }
+    main{
+        width: 100%;
+        font-size:1.2rem;
+    }
+    .projects{
+        width: 70vw;
+        height: 23vw;
+    }
+    section h2{  
+        padding-left: 40px; 
+    }
+    .section-title1{
+        padding-left: 35px;
+    }
+    section .box {
+        padding-left: 80px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {   
+    main{
+        width: 100%;
+        font-size:1rem;
+    }
+    .projects{
+        width: 80vw;
+        height: 23vw;
+    }
+    section h2{  
+        padding-left: 40px; 
+    }
+    .section-title1{
+        padding-left: 35px;
+    }
+    section .box {
+        padding-left: 80px;
+    }   
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   
+    main{
+        width: 100%;
+        font-size:1rem;
+    }
+    
+    .projects{
+        width: 83vw;
+        height: 23vw;
+        padding-left: 12px; 
+    }
+    section h2{  
+        padding-left: 80px; 
+    }
+    .section-title1{
+        padding-left: 35px;
+    }
+    section .box {
+        padding-left: 60px;
+    }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    main{
+        width:100%;
+        font-size: 0.9rem;
+    }  
+    .projects{
+        width: 83vw;
+        height: 13vw;
+        padding-left: 45px; 
+
+    }
+    section h2{  
+        padding-left: 40px; 
+    }
+    .section-title1{
+        padding-left: 35px;
+    }
+    section .box {
+        padding-left: 60px;
+    }
+}
+
