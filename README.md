@@ -1,1 +1,3 @@
-CSS Button Styles Website contains different Buttons designed using CSS that can be used for your website development.
+CSS Buttons Website :
+
+The site contains different buttons designed to help users to easily copy and paste code for their website development.
